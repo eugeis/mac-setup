@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Change name everywhere
-sudo scutil --set ComputerName "mbp"
-sudo scutil --set HostName "mbp"
-sudo scutil --set LocalHostName "mbp"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "mbp"
+#sudo scutil --set ComputerName "mbp"
+#sudo scutil --set HostName "mbp"
+#sudo scutil --set LocalHostName "mbp"
+#sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "mbp"
 
 # Disable auto correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false

@@ -2,8 +2,6 @@
 
 ⚙️ Automatic configuration for my Mac.
 
-ℹ️ Blog post about [moving to macOS](https://rootknecht.net/blog/moving-to-macOS/) after ten years of Linux.
-
 Automatic installation is based upon the following [Ansible](https://www.ansible.com/) roles:
 
 - [geerlingguy.homebrew](https://github.com/geerlingguy/ansible-collection-mac/tree/master/roles/homebrew) manages homebrew installation and packages

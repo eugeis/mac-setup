@@ -2,6 +2,8 @@
 - hosts: localhost
   connection: local
   gather_facts: true
+  become: true
+  become_method: sudo
 
   vars:
     osx_script: ./files/osx.sh
@@ -29,6 +31,7 @@
       - coreutils
       - datawire/blackbird/telepresence-legacy
       - direnv
+      - docker
       - dog
       - dua-cli
       - duf
@@ -130,6 +133,7 @@
       - xclip
       - yq
       - zoxide
+      - colima
 
     homebrew_uninstalled_packages: []
 
@@ -139,26 +143,27 @@
 
     homebrew_cask_apps:
       - alt-tab
-      - bartender
+      #- bartender
       - calibre
-      - docker
+      #- docker
       - firefox
       - font-hack-nerd-font
       - google-cloud-sdk
       - google-chrome
       - iterm2
       - karabiner-elements
-      - keycastr
+      #- keycastr
       - kitty
       - keepassxc
       - libreoffice
-      - linearmouse
+      #- linearmouse
       - macfuse # dependecy of telepresence
-      - middle
-      - numi
+      #- middle
+      #- numi
       - postman
       - stats
       - syncthing
+      - vagrant
 
     homebrew_cask_uninstalled_apps: []
 

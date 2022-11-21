@@ -2,24 +2,24 @@
 - hosts: localhost
   connection: local
   gather_facts: true
-  become: true
-  become_method: sudo
+  #become: true
+  #become_method: sudo
 
   vars:
     osx_script: ./files/osx.sh
 
     mas_installed_apps:
-      - { id: 405843582, name: "Alfred" }
-      - { id: 441258766, name: "Magnet" }
-      - { id: 897283731, name: "StrongBox" }
-      - { id: 1221250572, name: "Xnip" }
-      - { id: 824183456, name: "Affinity Photo" }
-      - { id: 1518425043, name: "Boop" }
-      - { id: 1447043133, name: "CursorPro" }
-      - { id: 1444383602, name: "GoodNotes 5" }
-      - { id: 905953485, name: "NordVPN" }
-      - { id: 824171161, name: "Affinity Designer" }
-      - { id: 881418622, name: "Affinity Publisher" }
+      #- { id: 405843582, name: "Alfred" }
+      #- { id: 441258766, name: "Magnet" }
+      #- { id: 897283731, name: "StrongBox" }
+      #- { id: 1221250572, name: "Xnip" }
+      #- { id: 824183456, name: "Affinity Photo" }
+      #- { id: 1518425043, name: "Boop" }
+      #- { id: 1447043133, name: "CursorPro" }
+      #- { id: 1444383602, name: "GoodNotes 5" }
+      #- { id: 905953485, name: "NordVPN" }
+      #- { id: 824171161, name: "Affinity Designer" }
+      #- { id: 881418622, name: "Affinity Publisher" }
 
     homebrew_installed_packages:
       #- alacritty
@@ -113,6 +113,7 @@
       - sketchybar
       - slides
       - stern
+      - structurizr-cli
       - stylua
       - tectonic
       - texlab

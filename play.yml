@@ -108,6 +108,7 @@
       - pulumi
       - pwgen
       - rcm
+      - rename
       - ripgrep
       - shellcheck
       - sketchybar

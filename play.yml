@@ -153,6 +153,7 @@
       - google-cloud-sdk
       - google-chrome
       - iterm2
+      - jd-gui
       - karabiner-elements
       #- keycastr
       - kitty
